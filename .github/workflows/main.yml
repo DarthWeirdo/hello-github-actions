@@ -9,4 +9,6 @@ jobs:
       - uses: actions/checkout@v1
 
       - name: Hello from vm
-        run: echo Hello from VM!!!
+        run: |
+          echo Content:
+          ls ./
